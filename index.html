@@ -8,10 +8,18 @@
     <link rel="stylesheet" type="text/css" href="style.css" /> 
 </head>
 <body>
-    <div class="search-box">
-        <input type="text" name="name" class="search-txt" placeholder="Type to search" />
-        <a class="search-btn" href="#">
-
+    <div id=search_container><h1>Library of Congress Search Engine</h1>
+    <form id="form"> 
+        <input type="search" id="query" name="q" placeholder="Search...">
+        <label for="drop-down">Select a format...</label>
+        <select name="drop-down" id="drop-down">
+        <option value="one">One</option>
+        <option value="two">Two</option>
+        <option value="three">Three</option>
+        </select>
+            <button>Click Me!</button>
+      </form>
+      </div>
 <script type="text/javascript" src="script.js"></script>    
 </body>
 </html>
